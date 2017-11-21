@@ -24,6 +24,14 @@ a
     background-color:white;
     border-bottom:2px solid #eeeeee;
     margin:0 auto;
+    
+}
+
+.header
+{
+    width:1000px;
+    height:80px;
+    margin:0 auto;
     position: relative;
 }
 
@@ -69,8 +77,8 @@ a
 
 .searchinp
 {
-    height:30px;
-    width:100px;
+    height:28px;
+    width:250px;
     position: absolute;
     border: hidden;
     outline:medium;
@@ -265,22 +273,21 @@ div.main a:hover {color:red}
 .end
 {
     margin:80px 0 0 0;
-    background-image:url('footer.png');
+    background:url(footer.png) center center no-repeat #333333;
     height:120px;
     width:100%;
-    position: relative;
-    
+    text-align: center;
+    line-height: 170px;
 }
+
+
 .end1
 {
     font-size:14px;
     font-family: "PingFang SC";
     letter-spacing: 5px;
     color:#9b9b9b;
-    position: absolute;
-    top:62%;
-    left:35%;
-
+    margin-right: 20px;
 }
 
 .end2
@@ -288,7 +295,4 @@ div.main a:hover {color:red}
     font-size:14px;
     font-family:PingFang SC;
     color: #9b9b9b;
-    position: absolute;
-    top:62%;
-    left:52%;
 }
