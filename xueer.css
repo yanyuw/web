@@ -15,8 +15,6 @@ a
     text-decoration: none;
 }
 
-
-
 .head
 {
     width:100%;
@@ -83,11 +81,10 @@ a
     height:28px;
     width:250px;
     position: absolute;
+    top:4px;
+    left:10px;
     border: hidden;
     outline:medium;
-    top:2px;
-    bottom: 2px;
-    left:10px;
 }
 
 .searchbut
@@ -95,8 +92,8 @@ a
     height: 30px;
     width: 80px;
     position:absolute;
-    display: inline-block;
     right:0px;
+    display: inline-block;
     background: none;
     border: none;
     cursor:pointer;
@@ -162,12 +159,14 @@ a
     font-size:14px;
     color:#5c5c5c;
     padding:40px 56px 48px 56px;
+    position:relative;
 }
 
 .main a
 {
-    display: block;
-    width:100%;
+    width:110px;
+    display: inline-block;
+    line-height: 1;
     white-space:nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
@@ -180,41 +179,18 @@ a
     width:130px;
     height:124px;
     padding:0 45px 0 45px;
+    position: absolute;
+    float: top;
 }
+
 .maintext2
 {
     border:none;
-    width:130px;
-    height:124px;
-    padding:0 45px 0 45px;
 }
 
-.main1
+.maindiv
 {
  
-    width:220px;
-    height:100%;
-    float:left;
-}
-
-.main2
-{
-    width:220px;
-    height:100%;
-    
-    float:left;
-}
-
-.main3
-{
-    width:220px;
-    height:100%;
-    float:left;
-}
-
-.main4
-{
-
     width:220px;
     height:100%;
     float:left;
@@ -276,7 +252,7 @@ div.main a:hover {color:red}
 
 .end
 {
-    margin:80px 0 0 0;
+    margin-top:80px;
     background:url(footer.png) center center no-repeat #333333;
     height:120px;
     width:100%;
