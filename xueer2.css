@@ -1,0 +1,445 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+
+body
+{
+    background-color: #F4F4F4;
+    font-family:"Microsoft YaHei";
+}
+
+a
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style-type: none;
+}
+.head
+{
+    width:100%;
+    height:80px;
+    background-color:white;
+    border-bottom:2px solid #eeeeee;
+    margin:0 auto;
+    
+}
+
+.header
+{
+    width:1000px;
+    height:80px;
+    margin:0 auto;
+    position: relative;
+}
+
+.head1
+{
+    border-top:5px solid red;
+    margin-right: 70px;
+    line-height: 75px;
+    font-size: 20px;
+    height: 75px;
+    width:40px;
+    color:red;
+    float:left;
+}
+
+.head2
+{
+    font-size: 20px;
+    line-height: 85px;
+    height:100%;
+    width:80px;
+    color:#666666;
+    margin-right: 110px;
+    float:left;
+}
+
+.logo
+{
+    width:99px;
+    height:34px;
+    float:left;
+    margin: 23px 43px 23px 0;
+}
+
+
+.search
+{
+    height:35px;
+    width:350px;
+    background-image:url('search.png');
+    position: relative;
+    float:left;
+    margin-top:22px;
+}
+
+
+.searchinp
+{
+    height:28px;
+    width:250px;
+    position: absolute;
+    top:4px;
+    left:10px;
+    border: hidden;
+    outline:medium;
+}
+
+.searchbut
+{
+    height: 30px;
+    width: 80px;
+    position:absolute;
+    right:0px;
+    display: inline-block;
+    background: none;
+    border: none;
+    cursor:pointer;
+}
+
+.signin
+{
+    width: 90px;
+    height: 30px;
+    background-color: #1dc091;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+    border:hidden;
+    line-height: 30px;
+    position: absolute;
+    right:20px;
+    top:20px;
+    
+}
+
+.father
+{
+    width:1000px;
+    margin:0 auto;
+}
+
+.course
+{
+    width:800px;
+    height:263px;
+    background-color:white;
+    padding:40px 44px 40px 78px;
+    margin-right: 10px;
+    float:left;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.circle
+{
+    width:96px;
+    height:96px;
+    background-color:white;
+    border-radius:50%;
+    border:2px solid #1dc091;
+    color: #1dc091;
+    font-size: 36px;
+    text-align: center;
+    line-height: 96px;
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: top;
+}
+
+.courseintro
+{
+    width:450px;
+    height:80px;
+    padding-left:30px;
+    border-left:1px solid #eeeeee;
+    display: inline-block;
+
+}
+.coursename
+{
+    font-size: 18px;
+}
+.teacher
+{
+    font-size:14px;
+}
+.dot
+{
+    width:8px;
+    height:8px;
+    background-color:red;
+    border-radius: 50%;
+    margin-right:10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.message
+{
+    margin-top:15px;
+    margin-left:18px;
+    font-size:14px;
+}
+.makecomment
+{
+    width:90px;
+    height:30px;
+    background-color: red;
+    line-height:30px;
+    color:white;
+    text-align: center;
+    position: absolute;
+    right:120px;
+    top:41px;
+    font-size: 14px;
+}
+.tagspace
+{
+    margin-top:26px;
+    padding-left:175px;
+
+}
+.coursetag
+{
+    background-color:#F5A623;
+    line-height:14px;
+    text-align: center;
+    font-size:14px;
+    color:white;
+    margin-right:20px;
+    display:inline-block;
+    padding:5px 12px;
+    margin-top:4px;
+}
+
+.like
+{
+    width:190px;
+    height:150px;
+    background-color:white;
+    float: left;
+    padding:40px 40px 20px 40px;
+    box-sizing: border-box;
+}
+
+.liketext
+{
+    color:#5c5c5c;
+    font-size:18px;
+    text-align: center;
+    
+}
+
+.likenum
+{
+    color:red;
+    font-size:22px;
+    text-align: center;
+}
+
+.likebut
+{
+    text-align: center;
+    width:190px;
+    height:90px;
+    background-color:#F5A623;
+    font-size:36px;
+    color:white;
+    float: left;
+    line-height: 90px;
+}
+
+.comments
+{
+    padding:42px 38px 60px 75px;
+    background:white;
+    width: 800px;
+    margin-top:10px;
+    margin-right:200px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.commenthead
+{
+    font-size:18px;
+    border-left: 4px solid red;
+    color:#5c5c5c;
+    padding-left:10px;
+}
+
+.contentspace
+{
+    width:100%;
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 10px;
+}
+
+.avatar
+{
+    width:59px;
+    height:59px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content
+{
+    width:600px;
+    display: inline-block;
+    padding-left:17px;
+}
+
+.username
+{
+    font-size:18px;
+    color:#1dc091;
+    display: inline-block;
+    padding:14px 0;
+}
+
+.hottag
+{
+    background-color:red;
+    color:white;
+    font-size:9px;
+    width:20px;
+    height:15px;
+    text-align: center;
+    line-height: 15px;
+    display: inline-block;
+    margin: 14px 5px;
+}
+
+.contenttxt
+{
+    padding:0 10px;
+    font-size:14px;
+    columns: #333333;
+    margin-bottom: 10px;
+}
+
+.agree
+{
+    color:#F5A623;
+    font-size:12px;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: right;
+    width:500px;
+}
+
+.date
+{
+    font-size:12px;
+    color:#333333;
+    display: inline-block;
+}
+.page
+{
+    margin:40px 0;
+    text-align: right;
+}
+
+.pagenum
+{
+    color:white;
+    background-color: #1dc091;
+    font-size:14px;
+    line-height:30px;
+    margin-left: 15px;
+    padding:7px 10px;
+    
+}
+
+.grey
+{
+    background-color: #cdcdcd;
+}
+
+.write
+{
+    width:600px;
+    height:200px;
+    padding:10px;
+    box-sizing: border-box;
+    border: 2px solid #eeeeee;
+    display: inline-block;
+}
+
+.writetag
+{
+    width:600px;
+    border: 2px solid #eeeeee;
+    padding:10px;
+    box-sizing: border-box;
+    margin:30px 0;
+
+}
+
+.tagtext
+{
+    color:#1dc091;
+    font-size:14px;
+    margin:10px 0;    
+}
+
+.addtag
+{
+    display: inline-block;
+    width:100%;
+}
+
+.usertag
+{
+    margin-top:0px;
+    margin-right:10px;
+}
+.commentbut
+{
+    width:100px;
+    height:30px;
+    margin:58px 254px;
+    text-align: center;
+    color:white;
+    background-color: #1dc091;
+    font-size:14px;
+    border:none;
+}
+
+.end
+{
+    margin-top:80px;
+    background:url(footer.png) center center no-repeat #333333;
+    height:120px;
+    width:100%;
+    text-align: center;
+    line-height: 160px;
+}
+
+
+.end1
+{
+    font-size:14px;
+    font-family: "PingFang SC";
+    letter-spacing: 5px;
+    color:#9b9b9b;
+    margin-right: 20px;
+}
+
+.end2
+{
+    font-size:14px;
+    font-family:PingFang SC;
+    color: #9b9b9b;
+}
+
